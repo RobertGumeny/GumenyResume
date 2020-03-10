@@ -1,0 +1,32 @@
+/*BEGIN HEADER STYLING*/
+header {
+  border-radius: 25px;
+  background: #003366;
+  color: whitesmoke;
+}
+header h1{
+  margin-bottom: 0;
+}
+header h2{
+  margin-top: 0;
+}
+.header-text{
+  margin-left: 1%;
+}
+/* BEGIN MAIN SECTION STYLING */
+main{
+  background-color: #e6f3ff;
+}
+.column{
+  float: left;
+  width: 33.3%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.subheading-area{
+  background: #003366;
+  color: whitesmoke;
+}
